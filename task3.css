@@ -1,0 +1,81 @@
+.bg{
+   background-image: url(circles.svg); 
+   background-size: 100%;
+   display: flex;
+   justify-content: space-around
+}
+.bg img{
+    width: 40%;
+    height: 40%;
+}
+.p{
+    width: 350px;
+    height: 400px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 180px;
+}
+h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+}
+.viewall{
+    background-color: #182e46;
+    border: none;
+    color: white;
+    text-align: center;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 30px;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 80px;
+}
+
+
+.cart{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 270px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price p{
+    color: red;
+}
+.addtocart{
+    background-color: #182e46;
+    border: none;
+    padding: 5px 5px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cart img{
+    width: 100%;
+    border-radius: 10px;
+}
+.parent{
+ width: 90%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
